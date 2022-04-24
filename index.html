@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <SCRIPT LANGUAGE="JavaScript">var txt="  Compu-web  ";var espera=140;var refresco=null;function rotulo_title() {document.title=txt;txt=txt.substring(1,txt.length)+txt.charAt(0);refresco=setTimeout("rotulo_title()",espera);}rotulo_title();</script>
+      <script src="index.js"></script>
+      <meta charset="utf-8">
+    <title>Compu-web</title>
+    <link rel="stylesheet" href="styles.css">
+    <div class="container text center py-5">
+    <h1 id = "titulo" class="display-3 py-5"><marquee> DISEÑO WEB </marquee> </h1> 
+    <img src="img/web.jpg" width="600" height="225">
+    <document class="getElementById"></document>
+  </div>
+  </head>
+  <body>
+           <strong>1.	¿Qué es Interfaz de usuario?</strong>
+<p>La interfaz de usuario (UI) es el conjunto de los controles y canales sensoriales mediante los cuales un usuario puede comunicarse con una máquina. Por ejemplo, en una computadora, la pantalla, el teclado y las bocinas son parte de la interfaz de usuario porque la utilidad de todas ellas es hacer que entre o salga información del equipo.
+Una buena interfaz de usuario se caracteriza por tener un alto grado de usabilidad, y por ser amigable e intuitiva.</p>
+<strong>Explicación:</strong>
+<p>El interfaz de usuario es la parte del sistema que hace posible conexión con los usuarios, fundamental mente el interfaz ofrece recursos para que los usuarios introduzcan comandos al sistema para que este se comporte de una forma determinada e igualmente para el sistema informe al usuario de su estado y los cambios que el sufre esa sería la salida.</p>
+<button id="boton" class="btn btn-danger"> Cambiar tema </button>
+<script>
+function Cambiar(){
+       document.getElementById("titulo").innerHTML = "TE CAMBIE";
+            } 
+  document.getElementById("boton").onclick = function (){ 
+    Cambiar();
+  }
+  
+</script>
+</body>
+<!-- Lennys Mina Angulo -->
+</html>
